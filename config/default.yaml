@@ -1,0 +1,5 @@
+# Global application defaults
+global_max_positions: 5
+global_risk_pct: 2.0
+output_handlers:
+  - console

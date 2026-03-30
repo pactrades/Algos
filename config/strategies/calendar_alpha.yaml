@@ -1,0 +1,15 @@
+name: calendar_alpha
+enabled: true
+instruments:
+  - CL
+  - GC
+  - ZB
+  - SI
+  - ES
+timeframes:
+  - "1h"
+  - "4h"
+  - "1d"
+max_concurrent_positions: 2
+risk_per_trade_pct: 1.0
+parameters: {}

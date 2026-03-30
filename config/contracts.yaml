@@ -1,0 +1,84 @@
+# Futures contract specifications
+# These are also hardcoded in src/algos/core/contracts.py for type safety,
+# but this file can be used for overrides or custom instruments.
+
+ES:
+  micro_symbol: MES
+  name: "E-mini S&P 500"
+  exchange: CME
+  tick_size: 0.25
+  tick_value: 1.25       # Micro tick value
+  full_tick_value: 12.50  # Full contract tick value
+  multiplier: 10
+
+NQ:
+  micro_symbol: MNQ
+  name: "E-mini Nasdaq 100"
+  exchange: CME
+  tick_size: 0.25
+  tick_value: 0.50
+  full_tick_value: 5.00
+  multiplier: 10
+
+YM:
+  micro_symbol: MYM
+  name: "E-mini Dow Jones"
+  exchange: CBOT
+  tick_size: 1.0
+  tick_value: 0.50
+  full_tick_value: 5.00
+  multiplier: 10
+
+RTY:
+  micro_symbol: M2K
+  name: "E-mini Russell 2000"
+  exchange: CME
+  tick_size: 0.10
+  tick_value: 0.50
+  full_tick_value: 5.00
+  multiplier: 10
+
+CL:
+  micro_symbol: MCL
+  name: "Crude Oil"
+  exchange: NYMEX
+  tick_size: 0.01
+  tick_value: 1.00
+  full_tick_value: 10.00
+  multiplier: 10
+
+GC:
+  micro_symbol: MGC
+  name: "Gold"
+  exchange: COMEX
+  tick_size: 0.10
+  tick_value: 1.00
+  full_tick_value: 10.00
+  multiplier: 10
+
+SI:
+  micro_symbol: SIL
+  name: "Silver"
+  exchange: COMEX
+  tick_size: 0.005
+  tick_value: 2.50
+  full_tick_value: 25.00
+  multiplier: 10
+
+ZB:
+  micro_symbol: ZB
+  name: "30-Year Treasury Bond"
+  exchange: CBOT
+  tick_size: 0.03125
+  tick_value: 31.25
+  full_tick_value: 31.25
+  multiplier: 1
+
+ZN:
+  micro_symbol: ZN
+  name: "10-Year Treasury Note"
+  exchange: CBOT
+  tick_size: 0.015625
+  tick_value: 15.625
+  full_tick_value: 15.625
+  multiplier: 1

@@ -1,0 +1,7 @@
+# TopStep — typical $50K combine account
+name: "TopStep"
+account_size: 50000
+trailing_drawdown: 2000    # $2,000 trailing drawdown
+daily_loss_limit: 1000     # $1,000 daily loss limit
+profit_target: 3000        # $3,000 combine target
+max_contracts: 5           # Max 5 micro contracts

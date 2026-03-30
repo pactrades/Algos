@@ -1,0 +1,7 @@
+# Bulenox — typical $50K account
+name: "Bulenox"
+account_size: 50000
+trailing_drawdown: 2500
+daily_loss_limit: 1250
+profit_target: 3000
+max_contracts: 10

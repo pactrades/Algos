@@ -1,0 +1,7 @@
+# Earn2Trade — typical $50K Gauntlet Mini
+name: "Earn2Trade"
+account_size: 50000
+trailing_drawdown: 2000
+daily_loss_limit: 1100
+profit_target: 3000
+max_contracts: 6

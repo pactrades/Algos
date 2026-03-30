@@ -1,0 +1,13 @@
+name: vol_regime
+enabled: true
+instruments:
+  - ES
+  - CL
+  - GC
+timeframes:
+  - "15m"
+  - "1h"
+  - "1d"
+max_concurrent_positions: 2
+risk_per_trade_pct: 1.0
+parameters: {}

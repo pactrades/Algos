@@ -1,0 +1,14 @@
+name: micro_structure
+enabled: true
+instruments:
+  - ES
+  - YM
+  - RTY
+  - GC
+timeframes:
+  - "1m"
+  - "5m"
+  - "15m"
+max_concurrent_positions: 3
+risk_per_trade_pct: 0.75
+parameters: {}

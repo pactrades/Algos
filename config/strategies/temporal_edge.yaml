@@ -1,0 +1,14 @@
+name: temporal_edge
+enabled: true
+instruments:
+  - ES
+  - RTY
+  - CL
+  - GC
+timeframes:
+  - "5m"
+  - "15m"
+  - "1h"
+max_concurrent_positions: 2
+risk_per_trade_pct: 1.0
+parameters: {}  # Populated after pattern discovery

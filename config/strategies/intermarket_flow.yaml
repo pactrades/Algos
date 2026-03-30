@@ -1,0 +1,15 @@
+name: intermarket_flow
+enabled: true
+instruments:
+  - ZB
+  - ZN
+  - ES
+  - CL
+  - GC
+timeframes:
+  - "15m"
+  - "1h"
+  - "4h"
+max_concurrent_positions: 2
+risk_per_trade_pct: 1.0
+parameters: {}

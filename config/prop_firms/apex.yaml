@@ -1,0 +1,7 @@
+# Apex Trader Funding — typical $50K evaluation account
+name: "Apex Trader Funding"
+account_size: 50000
+trailing_drawdown: 2500    # $2,500 trailing from peak equity
+daily_loss_limit: 2500     # Same as trailing DD for Apex
+profit_target: 3000        # $3,000 eval target
+max_contracts: 10          # Max 10 micro contracts
